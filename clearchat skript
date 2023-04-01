@@ -1,0 +1,16 @@
+# CLEARCHAT
+
+command /clearchat:
+        permission: perm.clearchat
+        permission message: &cInsufficient permission.
+        usage: /clearchat
+        trigger:
+                loop 1000 times:
+                        broadcast " "
+                wait 5 ticks
+                broadcast "                               &d-----------------------------------------------------"
+                broadcast "       &b&lSERVERNAME &e&l| &7&lChat cleared by &b&l%player%"
+                broadcast "                               &b-----------------------------------------------------"
+                
+                
+#MADEBY4V88/MOTWIZZY ON DISCORD
