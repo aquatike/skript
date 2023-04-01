@@ -1,0 +1,29 @@
+
+every 10 minute:
+		make console execute command "mrl reset beacon"
+		send "&b&lSERVERNAME &b>&7>&f&l BEACON mine has reset!" to all players
+		
+		
+		
+every 8 minute:
+		make console execute command "mrl reset treasure"
+		send "&b&lSERVERNAME &b>&7>&f&l TREASURE mine has reset!" to all players
+		
+		
+		
+every 5 minute:
+		make console execute command "mrl reset emerald"
+		make console execute command "mrl reset coal"
+		make console execute command "mrl reset wood"
+		make console execute command "mrl reset iron"
+		make console execute command "mrl reset diamond"
+		make console execute command "mrl reset netherite"
+		send "&b&lSERVERNAME &b>&7>&f&l All RESOURCE mines have been reset!" to all players
+		
+		
+every 8 minute:
+		make console execute command "mrl reset MOON"
+		make console execute command "mrl reset MEDIA"
+		send "&b&lSERVERNAME &b>&7>&f&l &dDONOR &fmines have been reset!" to all players
+    
+#MADEBY4V88/MOTWIZZY ON DISCORD!
