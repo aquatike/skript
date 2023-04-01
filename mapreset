@@ -1,0 +1,15 @@
+command /resetmap:
+    trigger:
+        permission: reset.map
+        broadcast "&b&lKOORABOX &e&l| &c&lMAP RESETTING.. &4[&c&l!&4] &4EXPECT &cLAG &4[&c&l!&4]"
+        make console execute command "//pos1 x,y,z"
+        wait 5 tick 
+        make console execute command "//pos2 x,y,z"
+        wait 5 tick 
+        make console execute command "//set air"
+        send "&bKOORABOX &e|&7 Reset the map successfully." to player
+
+every 18000 seconds:
+				execute console command "/resetmap"
+				
+#MADEBY4V88/MOTWIZZY ON DISCORD!
