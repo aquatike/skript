@@ -1,0 +1,14 @@
+command /keyall:
+	permission: key.all
+	permission message: "&8[&7servername&8]: &cYou don't have permission to do this!"
+	trigger:
+		if arg 1 is "list":
+		make console execute command "goldencrates givekey * key amount"
+		make console execute command "goldencrates givekey * key amount"
+		make console execute command "goldencrates givekey * key amount"
+		make console execute command "goldencrates givekey * key amount"
+		if arg 1 is not set:
+			send "" to player
+			send "&&8[&7servername&8]: Keyall succesfull! to player
+
+#MADEBY4V88/MOTWIZZY ON DISCORD!
