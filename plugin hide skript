@@ -1,0 +1,12 @@
+options:
+    t: &r,&a
+
+command /pl:
+    aliases: pluginlist, pluginslist, bukkit:pl, bukkit:plugins
+    trigger:
+        message "Plugins: none" # put the plugins in pluginhere for the your plugins you want to show
+command /plugins:
+    trigger:
+        message "Plugins: none" # put the plugins in pluginhere for the your plugins you want to show
+        
+#MADEBY4V88/MOTWIZZY ON DISCORD!
