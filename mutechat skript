@@ -1,0 +1,19 @@
+command /mutechat [<text>]:
+    trigger:
+        if player has permission "mutechat.staff":
+            if {mutechat} is not set:
+                broadcast "&7[&bSERVERNAME&7] &cChat has been &lmuted"
+                set {mutechat} to true
+            else:
+                broadcast "&7[&bSERVERNAME&7] &cChat has been &lunmuted."
+                delete {mutechat}
+        else:
+            send "&chaha"
+        
+on chat:
+    if {mutechat} is set:
+        player doesn't have permission "mutechatbypass"
+        cancel event
+        send "&7[&bSERVERNAME &7] &cChat is &lmuted!"
+        
+#MADEBY4V88/MOTWIZZY ON DISCORD!
