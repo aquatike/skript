@@ -1,0 +1,9 @@
+every 10 minutes:
+    loop all players:
+        if "%region at loop-player%" contains "afk":
+            broadcast "&b&lSERVERNAME &3| &bAll players in the &cAFK area &bjust got a reward!"
+            play sound "entity.experience_orb.pickup" with volume 3 to all players
+            give coal named "&7Coal Key" to loop-player
+            
+            
+#MADEBY4V88/MOTWIZZY ON DISCORD!
