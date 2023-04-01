@@ -1,0 +1,8 @@
+# on join MESSAGE
+on join:
+	set join message to "&7[&a+&7] %player%"
+
+on quit:
+	set leave message to "&7[&c-&7] %player%"
+
+#MADEBY4V88/MOTWIZZY ON DISCORD
