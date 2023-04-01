@@ -1,0 +1,4 @@
+every 90 seconds:
+				execute console command "/summon [entity] x y z"
+        
+#MADEBY4V88/MOTWIZZY ON DISCORD!
