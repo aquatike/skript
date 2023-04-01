@@ -1,0 +1,3 @@
+command discord: 
+    trigger:
+        send "<link:discordlink> &bJOIN THE DISCORD RIGHT &3&lHERE&b!&l"
